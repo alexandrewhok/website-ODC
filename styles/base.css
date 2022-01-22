@@ -1,0 +1,52 @@
+@font-face {
+  font-family: "HelveticaNowText-Regular";
+  src: local("HelveticaNowText-Regular"), url("./fonts/HelveticaNowText-Regular.ttf") format("truetype");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.logo {
+  padding: 1rem 2rem 0 2rem;
+  z-index: 1;
+}
+
+.intro {
+  background-color: red;
+}
+
+.intro-row1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  top: 6rem;
+  left: 11.6rem;
+  background-color: green;
+}
+
+.intro-row1-alta {
+  padding-right: 8.5rem;
+}
+
+.intro-row1-e {
+  padding-right: 22rem;
+}
+
+.intro-row2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+}
+
+.intro-text {
+  font-family: "HelveticaNowText-Regular";
+  font-size: 5rem;
+  color: black;
+}
+/*# sourceMappingURL=base.css.map */
