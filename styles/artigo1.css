@@ -1,0 +1,20 @@
+@font-face {
+  font-family: "HelveticaNowText-Regular";
+  src: local("HelveticaNowText-Regular"), url("./fonts/HelveticaNowText-Regular.ttf") format("truetype");
+}
+
+.intro-text {
+  font-family: "HelveticaNowText-Regular";
+  font-size: 5rem;
+  font-weight: 400;
+  color: black;
+  text-transform: uppercase;
+}
+
+.menu-text {
+  font-family: "HelveticaNowText-Regular";
+  font-size: 1.25rem;
+  font-weight: 400;
+  color: black;
+}
+/*# sourceMappingURL=artigo1.css.map */

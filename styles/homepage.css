@@ -57,9 +57,10 @@
   padding-bottom: 1.5rem;
 }
 
-.hero .menu {
+.menu-content {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  padding-top: 13rem;
 }
 /*# sourceMappingURL=homepage.css.map */
