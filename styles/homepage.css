@@ -1,0 +1,65 @@
+@font-face {
+  font-family: "HelveticaNowText-Regular";
+  src: local("HelveticaNowText-Regular"), url("./fonts/HelveticaNowText-Regular.ttf") format("truetype");
+}
+
+.intro-text {
+  font-family: "HelveticaNowText-Regular";
+  font-size: 5rem;
+  font-weight: 400;
+  color: black;
+  text-transform: uppercase;
+}
+
+.menu-text {
+  font-family: "HelveticaNowText-Regular";
+  font-size: 1.25rem;
+  font-weight: 400;
+  color: black;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.logo {
+  display: block;
+  margin-left: 2rem;
+  margin-top: 2rem;
+  z-index: 1000;
+}
+
+.hero {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin: -1rem;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+
+.hero-intro {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin: -1rem;
+  padding-bottom: 1.5rem;
+}
+
+.hero .menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+/*# sourceMappingURL=homepage.css.map */
