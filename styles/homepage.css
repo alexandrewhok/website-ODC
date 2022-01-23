@@ -25,13 +25,6 @@
           box-sizing: border-box;
 }
 
-.logo {
-  display: block;
-  margin-left: 2rem;
-  margin-top: 2rem;
-  z-index: 1000;
-}
-
 .hero {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -61,6 +54,36 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  padding: 7rem 1.25rem 0 1.25rem;
+}
+
+.menu-content-right {
+  display: block;
+}
+
+.menu-content-right-button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
   padding-top: 13rem;
+}
+
+.menu-content-right-button-link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.menu-content-right-button-link img {
+  height: 15px;
+  height: 15px;
+  padding-left: 0.5rem;
+  margin-top: 0.5rem;
 }
 /*# sourceMappingURL=homepage.css.map */

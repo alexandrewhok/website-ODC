@@ -6,12 +6,6 @@
   box-sizing: border-box;
   //font-family: sans-serif;
 }
-.logo {
-  display: block;
-  margin-left: 2rem;
-  margin-top: 2rem;
-  z-index: 1000;
-}
 .hero {
   display: flex;
   flex-direction: row;
@@ -30,6 +24,26 @@
 .menu {
   &-content {
     display: flex;
-    padding-top: 13rem;
+    padding: 7rem 1.25rem 0 1.25rem;
+
+    &-right {
+      display: block;
+      &-button {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        padding-top: 13rem;
+
+        &-link {
+          display: flex;
+          img {
+            height: 15px;
+            height: 15px;
+            padding-left: 0.5rem;
+            margin-top: 0.5rem;
+          }
+        }
+      }
+    }
   }
 }
