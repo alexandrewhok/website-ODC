@@ -50,6 +50,12 @@
   padding-bottom: 1.5rem;
 }
 
+.hero-intro:hover {
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+  color: gray;
+}
+
 .menu-content {
   display: -webkit-box;
   display: -ms-flexbox;
