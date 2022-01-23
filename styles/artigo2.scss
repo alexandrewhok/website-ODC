@@ -1,1 +1,45 @@
 @import "./variables";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  //font-family: sans-serif;
+}
+.hero {
+  display: flex;
+  flex-direction: row;
+  margin: -1rem;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+
+  &-content {
+    display: flex;
+    flex-direction: row;
+    margin: -1rem;
+    padding-bottom: 1.5rem;
+  }
+  &-content:hover {
+    transition: 0.2s;
+    color: gray;
+  }
+
+  &-content2 {
+    display: block;
+    margin: -1rem;
+    padding-bottom: 1.5rem;
+
+    &-top {
+      display: flex;
+      flex-direction: row;
+    }
+    &-bottom {
+      display: flex;
+      flex-direction: row;
+    }
+  }
+  &-content2:hover {
+    transition: 0.2s;
+    color: gray;
+  }
+}

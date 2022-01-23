@@ -1,6 +1,16 @@
-.logo {
-  position: sticky;
-  margin-left: 1rem;
-  margin-top: 1rem;
+.nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
   z-index: 1000;
+  &-logo {
+    position: sticky;
+    margin-left: 1rem;
+    margin-top: 1rem;
+  }
+  &-back {
+    position: sticky;
+    margin-right: 1rem;
+    margin-top: 1rem;
+  }
 }

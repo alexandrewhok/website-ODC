@@ -1,0 +1,106 @@
+@import "./variables";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.menu-text {
+  padding-top: 5rem;
+}
+
+.it-works {
+  background-image: url("../images/artigo1_1.png");
+  background-size: cover;
+  width: 100%;
+  &__content {
+    display: flex;
+  }
+}
+
+.its-history,
+.its-name,
+.who-designed,
+.was-there,
+.made-you,
+.reminds-you,
+.its-beautiful,
+.its-ugly,
+.its-boring,
+.its-special,
+.you-believe,
+.you-cant {
+  margin-top: -1rem;
+  margin-bottom: -1rem;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+
+  &__content {
+    display: block;
+    margin: -1rem;
+    padding-bottom: 1.5rem;
+
+    &__down {
+      display: flex;
+    }
+  }
+}
+
+.its-history {
+  background-image: url("../images/artigo1_2.png");
+  z-index: 1;
+}
+
+.its-name {
+  background-image: url("../images/artigo1_3.png");
+}
+
+.who-designed {
+  background-image: url("../images/artigo1_4.png");
+  z-index: -1;
+}
+
+.was-there {
+  background-image: url("../images/artigo1_5.png");
+  z-index: 1;
+}
+
+.made-you {
+  background-image: url("../images/artigo1_6.png");
+}
+
+.reminds-you {
+  background-image: url("../images/artigo1_7.png");
+  z-index: 1;
+}
+
+.its-beautiful {
+  background-image: url("../images/artigo1_8.png");
+}
+
+.its-ugly {
+  background-image: url("../images/artigo1_9.png");
+  z-index: 2;
+}
+
+.its-boring {
+  background-image: url("../images/artigo1_10.png");
+}
+
+.its-special {
+  background-image: url("../images/artigo1_11.png");
+}
+
+.you-believe {
+  background-image: url("../images/artigo1_12.png");
+}
+
+.you-cant {
+  background-image: url("../images/artigo1_13.png");
+  z-index: 1000;
+}
+
+.ending-a1-img {
+  background-image: url("../images/artigo1_14.png");
+}

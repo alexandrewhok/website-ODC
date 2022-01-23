@@ -17,4 +17,81 @@
   font-weight: 400;
   color: black;
 }
+
+.article-text {
+  font-family: "HelveticaNowText-Regular";
+  font-size: 2.5rem;
+  font-weight: 400;
+  color: black;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.hero {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin: -1rem;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+
+.hero-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin: -1rem;
+  padding-bottom: 1.5rem;
+}
+
+.hero-content:hover {
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+  color: gray;
+}
+
+.hero-content2 {
+  display: block;
+  margin: -1rem;
+  padding-bottom: 1.5rem;
+}
+
+.hero-content2-top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.hero-content2-bottom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.hero-content2:hover {
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+  color: gray;
+}
 /*# sourceMappingURL=artigo2.css.map */

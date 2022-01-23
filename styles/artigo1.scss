@@ -1,1 +1,55 @@
 @import "./variables";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.article-intro {
+  padding-bottom: 5rem;
+}
+
+.article-text {
+  padding: 2.5rem 2.5rem 5rem;
+}
+
+.index {
+  margin: -1rem;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+
+  &__content {
+    display: flex;
+    margin: -1rem;
+    padding-bottom: 1.5rem;
+
+    a {
+      all: unset;
+      cursor: pointer;
+    }
+
+    &__align {
+      display: flex;
+
+      img {
+        margin-top: 3.7rem;
+        margin-left: -1.5rem;
+        width: 1.875rem;
+        height: 1.875rem;
+      }
+
+      #designed {
+        margin-left: 0.5rem;
+      }
+
+      #reminds {
+        margin-left: -2.5rem;
+      }
+    }
+  }
+  &__content:hover {
+    transition: 0.2s;
+    color: gray;
+  }
+}

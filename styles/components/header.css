@@ -1,8 +1,28 @@
-.logo {
+.nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  z-index: 1000;
+}
+
+.nav-logo {
   position: -webkit-sticky;
   position: sticky;
   margin-left: 1rem;
   margin-top: 1rem;
-  z-index: 1000;
+}
+
+.nav-back {
+  position: -webkit-sticky;
+  position: sticky;
+  margin-right: 1rem;
+  margin-top: 1rem;
 }
 /*# sourceMappingURL=header.css.map */

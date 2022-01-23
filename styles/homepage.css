@@ -18,6 +18,13 @@
   color: black;
 }
 
+.article-text {
+  font-family: "HelveticaNowText-Regular";
+  font-size: 2.5rem;
+  font-weight: 400;
+  color: black;
+}
+
 * {
   margin: 0;
   padding: 0;

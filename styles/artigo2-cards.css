@@ -1,10 +1,7 @@
 @font-face {
   font-family: "HelveticaNowText-Regular";
-  src: local("HelveticaNowText-Regular"),
-    url("./fonts/HelveticaNowText-Regular.ttf") format("truetype");
+  src: local("HelveticaNowText-Regular"), url("./fonts/HelveticaNowText-Regular.ttf") format("truetype");
 }
-
-// FONTES SIZE
 
 .intro-text {
   font-family: "HelveticaNowText-Regular";
@@ -27,3 +24,4 @@
   font-weight: 400;
   color: black;
 }
+/*# sourceMappingURL=artigo2-cards.css.map */
