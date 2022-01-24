@@ -25,6 +25,14 @@
   color: black;
 }
 
+.article2-text {
+  font-family: "HelveticaNowText-Regular";
+  font-size: 0.75rem;
+  font-weight: 400;
+  color: black;
+  text-align: justify;
+}
+
 * {
   margin: 0;
   padding: 0;

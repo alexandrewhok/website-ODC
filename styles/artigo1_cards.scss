@@ -98,9 +98,10 @@
 
 .you-cant {
   background-image: url("../images/artigo1_13.png");
-  z-index: 1000;
+  z-index: 999;
 }
 
-.ending-a1-img {
+.ending-a1 {
   background-image: url("../images/artigo1_14.png");
+  z-index: 1000;
 }

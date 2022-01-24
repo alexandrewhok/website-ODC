@@ -1,1 +1,56 @@
 @import "./variables";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.emotion-extraction,
+.type-design-workflow,
+.emotional-types,
+.application {
+  &__content {
+    display: flex;
+  }
+}
+
+#type-design-workflow-text {
+  margin-top: 12rem;
+}
+
+.positive-negative {
+  background-image: url("../images/artigo2_3.png");
+
+  &__content {
+    &__top,
+    &__bottom {
+      display: flex;
+      margin-top: 6rem;
+    }
+  }
+}
+
+#positive-negative-text {
+  margin-top: 8rem;
+}
+
+#emotional-types-text {
+  margin-top: 12rem;
+}
+
+.emotion-extraction {
+  background-image: url("../images/artigo2_1.png");
+}
+
+.type-design-workflow {
+  background-image: url("../images/artigo2_2.png");
+}
+
+.emotional-types {
+  background-image: url("../images/artigo2_4.png");
+}
+
+.application {
+  background-image: url("../images/artigo2_5.png");
+}

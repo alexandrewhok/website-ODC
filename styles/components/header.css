@@ -9,7 +9,7 @@
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  z-index: 1000;
+  z-index: 5000;
 }
 
 .nav-logo {
@@ -24,5 +24,50 @@
   position: sticky;
   margin-right: 1rem;
   margin-top: 1rem;
+}
+
+.cursor {
+  position: fixed;
+  pointer-events: none;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: magenta;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  mix-blend-mode: difference;
+  z-index: 2000;
+  -webkit-box-shadow: 0 0 20px magenta;
+          box-shadow: 0 0 20px magenta;
+  -webkit-box-shadow: 0 0 60px magenta;
+          box-shadow: 0 0 60px magenta;
+  -webkit-box-shadow: 0 0 100px magenta;
+          box-shadow: 0 0 100px magenta;
+  -webkit-animation: colors 5s infinite;
+          animation: colors 5s infinite;
+}
+
+@-webkit-keyframes colors {
+  0% {
+    -webkit-filter: hue-rotate(0deg);
+            filter: hue-rotate(0deg);
+  }
+  100% {
+    -webkit-filter: hue-rotate(360deg);
+            filter: hue-rotate(360deg);
+  }
+}
+
+@keyframes colors {
+  0% {
+    -webkit-filter: hue-rotate(0deg);
+            filter: hue-rotate(0deg);
+  }
+  100% {
+    -webkit-filter: hue-rotate(360deg);
+            filter: hue-rotate(360deg);
+  }
 }
 /*# sourceMappingURL=header.css.map */

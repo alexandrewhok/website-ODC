@@ -25,6 +25,14 @@
   color: black;
 }
 
+.article2-text {
+  font-family: "HelveticaNowText-Regular";
+  font-size: 0.75rem;
+  font-weight: 400;
+  color: black;
+  text-align: justify;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -151,10 +159,11 @@
 
 .you-cant {
   background-image: url("../images/artigo1_13.png");
-  z-index: 1000;
+  z-index: 999;
 }
 
-.ending-a1-img {
+.ending-a1 {
   background-image: url("../images/artigo1_14.png");
+  z-index: 1000;
 }
 /*# sourceMappingURL=artigo1_cards.css.map */

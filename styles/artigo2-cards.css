@@ -24,4 +24,67 @@
   font-weight: 400;
   color: black;
 }
+
+.article2-text {
+  font-family: "HelveticaNowText-Regular";
+  font-size: 0.75rem;
+  font-weight: 400;
+  color: black;
+  text-align: justify;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.emotion-extraction__content,
+.type-design-workflow__content,
+.emotional-types__content,
+.application__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#type-design-workflow-text {
+  margin-top: 12rem;
+}
+
+.positive-negative {
+  background-image: url("../images/artigo2_3.png");
+}
+
+.positive-negative__content__top, .positive-negative__content__bottom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 6rem;
+}
+
+#positive-negative-text {
+  margin-top: 8rem;
+}
+
+#emotional-types-text {
+  margin-top: 12rem;
+}
+
+.emotion-extraction {
+  background-image: url("../images/artigo2_1.png");
+}
+
+.type-design-workflow {
+  background-image: url("../images/artigo2_2.png");
+}
+
+.emotional-types {
+  background-image: url("../images/artigo2_4.png");
+}
+
+.application {
+  background-image: url("../images/artigo2_5.png");
+}
 /*# sourceMappingURL=artigo2-cards.css.map */
